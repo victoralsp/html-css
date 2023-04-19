@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+
+body > header{
+    color: white;
+    height: 200px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #3CD681, #1A5B37);
+}
+#titulo{
+    text-align: center;
+    font-family: 'arial';
+    font-size: 30px;
+    color: #ffffff;
+}
+h1{
+    font-family: 'droid';
+    font-size: 30px;
+    color: #1F5F3C;
+}
+#paragrafo{
+    text-align: center;
+}
+h2{
+    font-family: 'droid';
+    font-size: 25px;
+    color: #276744;
+}
+#titulo{
+    text-align: center;
+
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 50px 10px 10px 5px;
+  }
+  
+  #menu li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+#conteudo-img{
+    max-width: 100%;
+  height: auto;
+}
+
+h2{
+    background-image: linear-gradient(to right, #BAE2CC, #E0F5E9, #FFFFFF);
+}
+
+#corpo{
+    border-left: 150px solid #84E1AD;
+    border-right: 150px solid #84E1AD;
+    padding: 1px;
+}
